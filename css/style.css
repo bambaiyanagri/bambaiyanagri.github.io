@@ -263,18 +263,20 @@ header {
       letter-spacing: 5px;
       padding: 7px 7px 7px 58px;
       display: block;
-      text-align: center;
-      background: black;
-      position: relative; }
+      /* text-align: center; */
+      /* background: black; */
+      position: relative;
+     }
       header .colorlib-navbar-brand .colorlib-logo span {
         font-size: 19px;
         display: block;
         margin-bottom: 0;
         line-height: 1.0;
         color: #fff; }
-      header .colorlib-navbar-brand .colorlib-logo i {
+      header .colorlib-navbar-brand .colorlib-logo img {
         color: #FF6107;
         position: absolute;
+        width: 140%;
         top: -18px;
         bottom: 0;
         left: 7px;
